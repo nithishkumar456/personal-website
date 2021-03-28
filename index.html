@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Personal Website</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<!--using FontAwesome-->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+	
+</head>
+<body>
+	<section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a class="logo" href="#">Nithish Kumar</a>
+	<!--menu-->
+	<ul>
+	<li><a class="active" href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">Contact Me</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+	<!--text----------------------->
+		<div class="text-container">
+			<p>Hello,</p>
+		    <p>I&#8217;M Nithish Kumar</p>
+			<p>3D Artist &amp; Designer</p>
+			<button class="hire-btn">Hire me</button>
+			<button class="down-cv">Download CV</button>
+		</div>
+	<!--model---------------------->
+	<img alt="model" class="model" src="nithish.jpeg" />
+	</section>
+	<div class="about-container">
+	<!--img-->
+		<img src="nithish.jpeg" />
+	<!--about-me-text-->
+		<div class="about-text">
+		<p>About Me</p>
+		<p>3d Artist &amp; Designer</p>
+		<p>I’ve been passionate about the 3D industry since I was young.
+
+I'm pursuing my graduation from Ramakrishna Mission Vivekananda College with, Computer Science degree.To gain and have a basic understating of computer programming languages and the passion for 3D has made to pursue my carrier in the 3D industry. 
+Since the passion for 3D, I have a broad understanding of hard-surface modelling techniques, having put a lot of time to ensure that I produce clean topology and meshes which are optimized to work well further down in the pipeline. 
+I can also produce neatly laid out UV’s and have a clear understanding of the UDIM workflow from both an unwrapping and texturing standpoint.
+
+For Portfolio: https://www.artstation.com/kumarnithish789</p>
+		<button>Hire Me</button>
+		<button>Download CV</button>
+		</div>
+	</div>
+ <!--services-container---------------------------->
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Services</p>
+	<p>Qualities Required</p>
+	<p>If you want make a 3D Art for your bussniess conatact me.I'll make as soon as possible.If you really like my work or if you don&#8217;t I'll do the necessary changes unless or untill you like.If you want make a 3D reneder for your bussniess conatact me.</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">3D Modelling</p>
+			<p class="details">I have a broad understanding of hard-surface modelling techniques, having put a lot of time to ensure that I produce clean topology and meshes which are optimized to work.</p>
+			<button>Read More</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">UX - User Experience</p>
+			<p class="details">With a clear understanding of design principles of user and their experience. I can design a clean and simple design for a user and for a very well experience as well well further down in the pipeline.</p>
+			<button>Read More</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Animation</p>
+			<p class="details">Animation is another key aspect of my skill in 2D or 3D. With the basic key principles of animation I can animate the scene irrespective of it's difficulty and the which experience in it will make work easier.
+			 </p>
+			<button>Read More</button>
+			</div>
+		</div>
+	</div>
+	<!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>If You Have Any Project In Your Mind ?</p>
+		<button>Contact me</button>
+	</div>
+	<!--footer--------------->
+ <footer>
+	 <!--heading-->
+  <p>Nithish Kumar</p>
+	 <!--paragraph-->
+	 <p>For Portfolio: https://www.artstation.com/kumarnithish789</p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+	 <!--copyright-->
+	 <p class="copyright">Copyright by Nithish Kumar</p>
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+	<!--JQUery-------------------->
+<script src="js/JQuery.js" type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	});
+</script>
+</body>
+</html>
